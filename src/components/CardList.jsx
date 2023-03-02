@@ -5,7 +5,7 @@ function CardList({ todoList, updateIsDone }) {
   return (
     <>
       <div>
-        <h3>Working...</h3>
+        <h3>Working... ✍️</h3>
         <section className="card-list-wrap">
           {todoList
             .filter(object => {
@@ -23,7 +23,7 @@ function CardList({ todoList, updateIsDone }) {
         </section>
       </div>
       <div>
-        <h3>Done..!</h3>
+        <h3>Done..! 🎉🎉</h3>
         <section className="card-list-wrap">
           {todoList
             .filter(object => {

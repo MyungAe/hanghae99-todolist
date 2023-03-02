@@ -5,8 +5,18 @@ function Card({ object, updateIsDone }) {
     <div className="card-wrap">
       <h2>{object.title}</h2>
       <p>{object.content}</p>
-      <button onClick={() => updateIsDone(object.id, false)}>삭제하기</button>
-      <button onClick={() => updateIsDone(object.id, true)}>완료</button>
+      <button
+        className="card-button remove"
+        onClick={() => updateIsDone(object.id, false)}
+      >
+        삭제하기
+      </button>
+      <button
+        className="card-button done"
+        onClick={() => updateIsDone(object.id, true)}
+      >
+        완료
+      </button>
     </div>
   );
 }

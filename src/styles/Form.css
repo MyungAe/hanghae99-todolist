@@ -14,3 +14,9 @@
 .form-wrap input {
   margin-right: 10px;
 }
+
+.form-submit {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}

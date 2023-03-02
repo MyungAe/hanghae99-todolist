@@ -13,3 +13,18 @@
 .card-wrap > * {
   margin-bottom: 10px;
 }
+
+.card-button {
+  padding: 10px;
+
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.remove {
+  border: 1px solid red;
+}
+
+.done {
+  border: 1px solid green;
+}
