@@ -1,0 +1,6 @@
+.card-list-wrap {
+  display: flex;
+  align-content: center;
+  max-width: inherit;
+  flex-wrap: wrap;
+}

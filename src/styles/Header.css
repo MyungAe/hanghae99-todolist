@@ -1,0 +1,10 @@
+@import 'color.css';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--title-bg-color);
+  padding: 15px 30px;
+  border-radius: 5px;
+}
